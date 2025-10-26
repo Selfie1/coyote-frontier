@@ -557,6 +557,7 @@
     - NFSurgeryBasicStatic # Frontier
     - NFSurgeryMedicalToolsStatic #Frontier
     - NFTopicalsStatic # Frontier
+    - NFMedicalArchetypeStatic # Frontier
     - AACTableStatic # DeltaV - AAC Tablets
     - CSIPCStatic # Coyote - IPC Topicals
     # dynamicPacks: # Frontier
