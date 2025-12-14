@@ -723,7 +723,7 @@
   id: ScentLewdMusk
   parent:
   - ScentBase
-  - ScentLewd
+  isLewd: true
   msgsExamine:
   - scent-musk-examine
   msgsDirect:
@@ -737,7 +737,7 @@
   id: Heat
   parent:
   - ScentBase
-  - ScentLewd
+  isLewd: true
   msgsExamine:
   - scent-heat-examine
   msgsDirect:
@@ -751,7 +751,7 @@
   id: Latex
   parent:
   - ScentBase
-  - ScentLewd
+  isLewd: true
   msgsExamine:
   - scent-latex-examine
   msgsDirect:
@@ -765,8 +765,8 @@
   id: Boystink
   parent:
   - ScentBase
-  - ScentLewd
-  - ScentStinky
+  isLewd: true
+  isStinky: true
   msgsExamine:
   - scent-boystink-examine
   msgsDirect:
@@ -780,7 +780,7 @@
   id: Boysmell
   parent:
   - ScentBase
-  - ScentLewd
+  isLewd: true
   msgsExamine:
   - scent-boysmell-examine
   msgsDirect:
@@ -794,8 +794,8 @@
   id: Skunk
   parent:
   - ScentBase
-  - ScentLewd
-  - ScentStinky
+  isLewd: true
+  isStinky: true
   msgsExamine:
   - scent-skunk-examine
   msgsDirect:
@@ -809,8 +809,8 @@
   id: Girlstink
   parent:
   - ScentBase
-  - ScentLewd
-  - ScentStinky
+  isLewd: true
+  isStinky: true
   msgsExamine:
   - scent-girlstink-examine
   msgsDirect:
@@ -824,7 +824,7 @@
   id: Girlsmell
   parent:
   - ScentBase
-  - ScentLewd
+  isLewd: true
   msgsExamine:
   - scent-girlsmell-examine
   msgsDirect:
@@ -838,7 +838,7 @@
   id: Spaceweed
   parent:
   - ScentBase
-  - ScentLewd
+  isLewd: true
   msgsExamine:
   - scent-spaceweed-examine
   msgsDirect:
