@@ -122,5 +122,21 @@ horny-bodytype-ruggedlybuilt-brief           = ruggedly-built
 horny-bodytype-average-descriptive           = STONKTHEYHAVE no extreme features
 horny-bodytype-average-brief                 = average
 
+horny-bodytype-plush-descriptive             = STONKTHEYARE pleasantly plump and soft
+horny-bodytype-plush-brief                   = plush
 
+horny-bodytype-chubby-descriptive            = STONKTHEYLOOK pretty darn chubby
+horny-bodytype-chubby-brief                  = chubby
+
+horny-bodytype-fat-descriptive               = STONKTHEYLOOK quite well-fed
+horny-bodytype-fat-brief                     = fat
+
+horny-bodytype-obese-descriptive             = STONKTHEYLOOK exceptionally blubbery
+horny-bodytype-obese-brief                   = obese
+
+horny-bodytype-morbidlyobese-descriptive     = STONKTHEYLOOK extremely obese
+horny-bodytype-morbidlyobese-brief           = morbidly obese
+
+horny-bodytype-extremelybuxom-descriptive    = STONKTHEYHAVE some extremely massive breasts
+horny-bodytype-extremelybuxom-brief          = extremely buxom
 

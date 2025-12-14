@@ -504,3 +504,22 @@ trait-bodytype-ruggedlybuilt-desc     = You are pretty ruggedly-built!
 trait-bodytype-average-name           = Average
 trait-bodytype-average-desc           = You are pretty average!
 
+trait-bodytype-plush-name             = Plush
+trait-bodytype-plush-desc             = You are kinda pudgy and soft!
+
+trait-bodytype-chubby-name            = Chubby
+trait-bodytype-chubby-desc            = You are pretty chubby!
+
+trait-bodytype-fat-name               = Fat
+trait-bodytype-fat-desc               = You are pretty fat!
+
+trait-bodytype-obese-name             = Obese
+trait-bodytype-obese-desc             = You are really fat!
+
+trait-bodytype-morbidlyobese-name     = Morbidly Obese
+trait-bodytype-morbidlyobese-desc     = You are extremely fat!
+
+trait-bodytype-extremelybuxom-name    = Extremely Buxom
+trait-bodytype-extremelybuxom-desc    = You have extremely massive breasts!
+
+
