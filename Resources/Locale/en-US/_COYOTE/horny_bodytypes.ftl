@@ -1,6 +1,6 @@
-horny-examine-quirk-bodyword-single =   [color=Cyan]{ $first }![/color]
-horny-examine-quirk-bodyword-two    =   [color=Cyan]{ $first }, and {SUBJECT($them)} {CONJUGATE-BASIC($them, "seem", "seems")} to be { $second }![/color]
-horny-examine-quirk-bodyword-multiple = [color=Cyan]{ $first }, and {SUBJECT($them)} {CONJUGATE-BASIC($them, "seem", "seems")} to be { $second }, and { $last }![/color]
+horny-examine-quirk-bodyword-single =   [color=OliveDrab]{ $first }![/color]
+horny-examine-quirk-bodyword-two    =   [color=OliveDrab]{ $first }, and {SUBJECT($them)} {CONJUGATE-BASIC($them, "seem", "seems")} to be { $second }![/color]
+horny-examine-quirk-bodyword-multiple = [color=OliveDrab]{ $first }, and {SUBJECT($them)} {CONJUGATE-BASIC($them, "seem", "seems")} to be { $second }, and { $last }![/color]
 
 horny-bodytype-stonk-descriptive             = to have very stonky proportions here and there
 horny-bodytype-stonk-brief                   = stonky

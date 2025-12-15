@@ -250,7 +250,7 @@ public sealed class ScentSystem : EntitySystem
         }
         using (args.PushGroup("DanIsCool"))
         {
-            args.PushMarkup(combinedDesc);
+            args.PushMarkup(combinedDesc, 3); // between Physical and Personality
         }
     }
 

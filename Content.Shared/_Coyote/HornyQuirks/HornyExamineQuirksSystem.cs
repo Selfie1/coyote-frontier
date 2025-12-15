@@ -68,7 +68,7 @@ public sealed class HornyExamineQuirksSystem : EntitySystem
                         loc,
                         targetIdent,
                         examinerIdent);
-                    args.PushMarkup(translated);
+                    args.PushMarkup(translated, 0);
                 }
             }
 
@@ -76,7 +76,7 @@ public sealed class HornyExamineQuirksSystem : EntitySystem
             // stick body words at start
             if (!string.IsNullOrEmpty(bodyWords))
             {
-                args.PushMarkup(bodyWords);
+                args.PushMarkup(bodyWords, 10);
             }
         }
     }
