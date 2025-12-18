@@ -1,7 +1,7 @@
 - type: emote
   id: Gurgle
   name: chat-emote-name-gurgle
-  category: Vocal
+  category: Lizard #Changed from Vocal to Lizard for Coyote emote wheel purposes
   available: false
   whitelist:
     tags:
