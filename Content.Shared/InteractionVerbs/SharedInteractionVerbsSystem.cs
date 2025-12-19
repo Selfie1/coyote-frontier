@@ -463,7 +463,7 @@ public abstract class SharedInteractionVerbsSystem : EntitySystem
     }
 
     private ProtoId<InteractionPopupPrototype>? GetPopupKind(
-        ProtoId<InteractionPopupPrototype>? protoId, 
+        ProtoId<InteractionPopupPrototype>? protoId,
         EntityUid target,
         InteractionVerbPrototype.EffectSpecifier fx)
     {
