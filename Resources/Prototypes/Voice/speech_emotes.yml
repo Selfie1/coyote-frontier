@@ -385,14 +385,11 @@
   id: Chirp
   name: chat-emote-name-chirp
   category: Lizard #Changed from Avali to Lizard due to no Avali. Repurposing for Coyote lizard chrips
-  available: false
+  available: true
   icon: Interface/Emotes/chirp.png
   whitelist:
     components:
-    - Nymph
     - Vocal
-    tags:
-    - LizardEmotes
   blacklist:
     tags:
     - SiliconEmotes
