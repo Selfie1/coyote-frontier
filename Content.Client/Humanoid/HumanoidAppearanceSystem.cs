@@ -203,8 +203,8 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
     ///     override this with the appearance data it sends over.
     /// </remarks>
     public override void LoadProfile(
-        EntityUid uid, 
-        HumanoidCharacterProfile? profile, 
+        EntityUid uid,
+        HumanoidCharacterProfile? profile,
         HumanoidAppearanceComponent? humanoid = null
         )
     {
