@@ -35,10 +35,6 @@
     spawned:
     - id: FoodMeatHuman
       amount: 5
-  - type: TemperatureProtection # fur is a good insulator, actually
-    coefficient: 0.1
-  - type: Flammable
-    fireStackIncreaseMultiplier: 1.35 # until you light it up, cuz it's oily too
   - type: MeleeWeapon
     soundHit:
       collection: Punch
