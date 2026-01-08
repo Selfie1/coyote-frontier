@@ -7,12 +7,12 @@
   markingLimits: MobTajaranMarkingLimits
   dollPrototype: MobTajaranDummy
   skinColoration: Hues
-  minHeight: 0.65
-  defaultHeight: 0.8
-  maxHeight: 1.1
-  minWidth: 0.6
-  defaultWidth: 0.8
-  maxWidth: 1.15
+  minHeight: 0.35
+  defaultHeight: 1
+  maxHeight: 1.75
+  minWidth: 0.35
+  defaultWidth: 1
+  maxWidth: 1.75
   maleFirstNames: names_tajaran_first
   femaleFirstNames: names_tajaran_first
   lastNames: names_tajaran_last
@@ -39,32 +39,50 @@
       points: 1
       required: true
       defaultMarkings: [ TajaranEarsBasic ]
-    BaseChest:
-      points: 1
-      required: false
-    BaseRLeg:
-      points: 2
-      required: false
-    BaseRFoot:
-      points: 2
-      required: false
-    BaseLLeg:
-      points: 2
-      required: false
-    BaseLFoot:
-      points: 2
-      required: false
-    BaseRArm:
-      points: 2
-      required: false
-    BaseRHand:
-      points: 3
+    BaseHead:
+      points: 35
       required: false
     BaseLArm:
-      points: 2
+      points: 35
+      required: false
+    BaseLFoot:
+      points: 35
       required: false
     BaseLHand:
-      points: 3
+      points: 35
+      required: false
+    BaseLLeg:
+      points: 35
+      required: false
+    BaseRArm:
+      points: 35
+      required: false
+    BaseRFoot:
+      points: 35
+      required: false
+    BaseRHand:
+      points: 35
+      required: false
+    BaseRLeg:
+      points: 35
+      required: false
+    Chest:
+      points: 35
+      required: false
+    Overlay:
+      points: 35
+      required: false
+    Special:
+      points: 35
+      required: false
+    UndergarmentTop:
+      points: 35
+      required: false
+    UndergarmentBottom:
+      points: 35
+      required: false
+    NeckFluff:
+      points: 35
       required: false
 
 - type: speciesBaseSprites
@@ -87,6 +105,14 @@
     Tail: MobHumanoidAnyMarking
     LFoot: MobTajaranLFoot
     RFoot: MobTajaranRFoot
+    TailBehind: MobHumanoidAnyMarking
+    TailOversuit: MobHumanoidAnyMarking
+    UndershirtUnderclothes: MobHumanoidAnyMarking
+    UndershirtOverclothes: MobHumanoidAnyMarking
+    UndergarmentTop: MobHumanoidAnyMarking
+    UndergarmentBottom: MobHumanoidAnyMarking
+    Genital: MobHumanoidAnyMarking
+    NeckFluff: MobHumanoidAnyMarking
 
 - type: humanoidBaseSprite
   id: MobTajaranEyes
