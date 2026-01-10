@@ -1,27 +1,5 @@
 # Base
 
-- type: entity
-  parent: FoodInjectableBase
-  id: FoodDonkpocketBase
-  abstract: true
-  components:
-  - type: Food
-  - type: Sprite
-    sprite: _CS/Objects/Consumable/Food/Baked/donkpocket.rsi
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 10
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 3
-  - type: Item
-    size: Tiny
-  - type: Tag
-    tags:
-    - DonkPocket
-    - Meat
-
 # Donkpocket
 
 # Warm gives +5 nutriment.
