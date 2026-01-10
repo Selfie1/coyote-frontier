@@ -47,6 +47,7 @@ public sealed class RpiContinuousActionProxyDatum(ProtoId<RpiContinuousProxyActi
         delta *= mult;
         TotalAccumulated += delta;
         LastAccumulated = _gameTiming.CurTime;
+        GetCurrentMultiplier();
     }
 
     /// <summary>
@@ -100,12 +101,16 @@ public sealed class RpiContinuousActionProxyDatum(ProtoId<RpiContinuousProxyActi
     {
         if (!_prototypeManager.TryIndex(Proto, out var proto))
         {
-            return FixedPoint2.New(1.0f);
+            CurrentMultiplier = FixedPoint2.New(1.0f);
+            return CurrentMultiplier;
         }
         var maxTime = TimeSpan.FromMinutes(proto.MinutesToMaxBonus);
         var curTime = TotalAccumulated;
         if (curTime > maxTime)
-            return FixedPoint2.New(proto.MaxMultiplier);
+        {
+            CurrentMultiplier = FixedPoint2.New(proto.MaxMultiplier);
+            return CurrentMultiplier;
+        }
         var mult = curTime.TotalSeconds / maxTime.TotalSeconds;
         mult = Math.Clamp(mult * proto.MaxMultiplier, 1.0f, proto.MaxMultiplier);
         CurrentMultiplier = FixedPoint2.New(mult);

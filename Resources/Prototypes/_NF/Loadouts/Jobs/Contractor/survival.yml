@@ -71,3 +71,102 @@
   storage:
     back:
     - NFBoxSurvivalExtendedSheleg
+
+- type: loadout
+  id: ContractorNFBoxSurvivalDonk
+  name: Donk Co. survival box
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT1
+  price: 50000
+  storage:
+    back:
+    - BoxSurvivalDonk
+
+- type: loadout
+  id: ContractorNFBoxSurvivalDonkSpicy
+  name: Donk Co. arctic survival box
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT1
+  price: 50000
+  storage:
+    back:
+    - BoxSurvivalDonkSpicy
+
+- type: loadout
+  id: ContractorNFBoxSurvivalDonkTeriyaki
+  name: Donk Co. flavor survival box
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT1
+  price: 50000
+  storage:
+    back:
+    - BoxSurvivalDonkTeriyaki
+
+- type: loadout
+  id: ContractorNFBoxSurvivalDonkDank
+  name: Donk Co. stress survival box
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT1
+  price: 50000
+  storage:
+    back:
+    - BoxSurvivalDonkDank
+
+- type: loadout
+  id: ContractorNFBoxSurvivalDonkPizza
+  name: Donk Co. wagon expedition survival box
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT1
+  price: 50000
+  storage:
+    back:
+    - BoxSurvivalDonkPizza
+
+- type: loadout
+  id: ContractorNFBoxSurvivalDonkHonk
+  name: Donk Co. tropical survival box
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT1
+  price: 50000
+  storage:
+    back:
+    - BoxSurvivalDonkHonk
+
+- type: loadout
+  id: ContractorNFBoxSurvivalDonkBerry
+  name: Donk Co. emergency flavor survival box
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT1
+  price: 50000
+  storage:
+    back:
+    - BoxSurvivalDonkBerry
+
+- type: loadout
+  id: ContractorNFBoxSurvivalDonkMoth
+  name: Donk Co. empty sock drawer survival box
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT1
+  price: 50000
+  storage:
+    back:
+    - BoxSurvivalDonkMoth
+
+- type: loadout
+  id: ContractorNFBoxSurvivalDonkDink
+  name: Donk Co. good times survival box
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT1
+  price: 50000
+  storage:
+    back:
+    - BoxSurvivalDonkDink

@@ -56,6 +56,7 @@
     - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
     - map: [ "enum.HumanoidVisualLayers.Hair" ]
     - map: [ "enum.HumanoidVisualLayers.HeadSide" ]
+    - map: [ "enum.HumanoidVisualLayers.NeckFluff" ]
     - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
     - map: [ "enum.HumanoidVisualLayers.Tail" ]
     - map: [ "mask" ]
@@ -167,7 +168,7 @@
 #     layoutId: IPC
   - type: EmitBuzzWhileDamaged
   - type: CanHostGuardian
-  - type: WeldingHealable
+  # - type: WeldingHealable # CS - Remove, they have their own topical system
   - type: LayingDown
   - type: HumanoidAppearance
     species: IPC
@@ -180,14 +181,15 @@
     cosmeticOnly: false
   - type: TallWhitelist
     scale: 1.2
-  - type: ThermalRegulator
-    metabolismHeat: 0
-    radiatedHeat: 100
-    implicitHeatRegulation: 500
-    sweatHeatRegulation: 2000
-    shiveringHeatRegulation: 2000
-    normalBodyTemperature: 310.15
-    thermalRegulationTemperatureThreshold: 25
+  # CS - Tweaks start
+  - type: Damageable # COYOTE Add
+    damageContainer: IPC # COYOTE Add
+    damageModifierSet: IPC # COYOTE Add
+  - type: Bloodstream
+    bloodReagent: Oxidant
+    maxBleedAmount: 4
+    bloodlossThreshold: 0.5
+  # CS - Tweaks endsd
   - type: Fixtures
     fixtures:
       fix1:
@@ -206,6 +208,7 @@
   parent: MobHumanDummy
   id: MobIPCDummy
   description: A dummy IPC meant to be used in character setup.
+  categories: [ HideSpawnMenu ] # CS - Not to be spawned
   components:
   - type: HumanoidAppearance
     species: IPC

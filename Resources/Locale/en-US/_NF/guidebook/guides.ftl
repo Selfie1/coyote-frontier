@@ -1,6 +1,7 @@
 # Base entries
 guide-entry-nf14 = Frontier Guide
 guide-entry-bank = NT Galactic Bank
+guide-entry-shifts-and-persistence = Shifts and Persistence
 guide-entry-piloting = Piloting
 guide-entry-startinggear = Starting Equipment
 guide-entry-hiring = Hiring Crew
@@ -62,7 +63,11 @@ guide-entry-shipyard-comet = Comet
 guide-entry-shipyard-courier = Courier
 guide-entry-shipyard-construct = Construct
 guide-entry-shipyard-copperhead = Copperhead
+guide-entry-shipyard-crescent = Crescent
 guide-entry-shipyard-crossroads = Crossroads
+guide-entry-shipyard-dove = Dove
+guide-entry-shipyard-dragoon = Dragoon
+guide-entry-shipyard-dragonfly = Dragonfly
 guide-entry-shipyard-druid = Druid
 guide-entry-shipyard-eagle = Eagle
 guide-entry-shipyard-garden = Garden
@@ -98,6 +103,7 @@ guide-entry-shipyard-sparrow = Sparrow
 guide-entry-shipyard-skipper = Skipper
 guide-entry-shipyard-spirit = Spirit
 guide-entry-shipyard-stasis = Stasis
+guide-entry-shipyard-stringer = Stringer
 guide-entry-shipyard-surveyor = Surveyor
 guide-entry-shipyard-tide = Tide
 guide-entry-shipyard-vagabond = Vagabond

@@ -104,3 +104,214 @@
     layers:
       - state: internals
       - state: extendedtank
+
+
+- type: entity
+  parent: BoxCardboard
+  id: BoxSurvivalDonk
+  name: Donk Co. survival box
+  description: Finally! A survival kit specially formulated to deliver unrivaled snacktacular all-natural protection from hunger up to NINE times per box!
+  suffix: Donkpockets
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodDonkpocket
+    - id: FoodDonkpocket
+    - id: FoodDonkpocket
+    - id: FoodDonkpocket
+    - id: FoodDonkpocket
+    - id: FoodDonkpocket
+    - id: FoodDonkpocket
+    - id: FoodDonkpocket
+    - id: FoodDonkpocket
+  - type: Sprite
+    sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
+    state: box
+  - type: Item
+    sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
+    size: Small
+
+- type: entity
+  parent: BoxSurvivalDonk
+  id: BoxSurvivalDonkSpicy
+  name: Donk Co. arctic survival box
+  description: Brr! It's cold out there on those iceteroids! Stay warm with Donk Co.'s Blazin' Hot Donkpockets! It's like a plasmafire that warms your soul while delivering unrivaled snacktacular all-natural protection from hunger up to NINE times per box!
+  suffix: Spicy Donks
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodDonkpocketSpicy
+    - id: FoodDonkpocketSpicy
+    - id: FoodDonkpocketSpicy
+    - id: FoodDonkpocketSpicy
+    - id: FoodDonkpocketSpicy
+    - id: FoodDonkpocketSpicy
+    - id: FoodDonkpocketSpicy
+    - id: FoodDonkpocketSpicy
+    - id: FoodDonkpocketSpicy
+  - type: Sprite
+    state: spicy-box
+  - type: Item
+    sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
+
+- type: entity
+  parent: BoxSurvivalDonk
+  id: BoxSurvivalDonkTeriyaki
+  name: Donk Co. flavor survival box
+  description: Deep space mining demands a deep flavor! Finger-lickin' sweet and savory Donkyaki-glazed Donkpockets deliver unrivaled snacktacular all-natural protection from hunger up to NINE times per box!
+  suffix: Teriyaki Donks
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodDonkpocketTeriyaki
+    - id: FoodDonkpocketTeriyaki
+    - id: FoodDonkpocketTeriyaki
+    - id: FoodDonkpocketTeriyaki
+    - id: FoodDonkpocketTeriyaki
+    - id: FoodDonkpocketTeriyaki
+    - id: FoodDonkpocketTeriyaki
+    - id: FoodDonkpocketTeriyaki
+    - id: FoodDonkpocketTeriyaki
+  - type: Sprite
+    state: teriyaki-box
+  - type: Item
+    sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
+
+- type: entity
+  parent: BoxSurvivalDonk
+  id: BoxSurvivalDonkDank
+  name: Donk Co. stress survival box
+  description: Take a break from the grind with some mellowed-out munchin'! Dank Donkpockets deliver unrivaled snacktacular all-natural protection from hunger up to NINE times per box!
+  suffix: Dank Donks
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodDonkpocketDank
+    - id: FoodDonkpocketDank
+    - id: FoodDonkpocketDank
+    - id: FoodDonkpocketDank
+    - id: FoodDonkpocketDank
+    - id: FoodDonkpocketDank
+    - id: FoodDonkpocketDank
+    - id: FoodDonkpocketDank
+    - id: FoodDonkpocketDank
+  - type: Sprite
+    state: box
+  - type: Item
+    sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
+
+- type: entity
+  parent: BoxSurvivalDonk
+  id: BoxSurvivalDonkPizza
+  name: Donk Co. wagon expedition survival box
+  description: Mamma mia! It's PizzaTime! Get a slice of the action with Andy's Peperony and Chease Donkpockets, delivering unrivaled snacktacular all-natural protection from hunger up to NINE times per box!
+  suffix: Pizza Donks
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodDonkpocketPizza
+    - id: FoodDonkpocketPizza
+    - id: FoodDonkpocketPizza
+    - id: FoodDonkpocketPizza
+    - id: FoodDonkpocketPizza
+    - id: FoodDonkpocketPizza
+    - id: FoodDonkpocketPizza
+    - id: FoodDonkpocketPizza
+    - id: FoodDonkpocketPizza
+  - type: Sprite
+    state: pizza-box
+  - type: Item
+    sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
+
+- type: entity
+  parent: BoxSurvivalDonk
+  id: BoxSurvivalDonkHonk
+  name: Donk Co. tropical survival box
+  description: Prepare to go ape with our Honknanna Donkpockets! Infused with real bananium extract, these happy honkin' snacks deliver unrivaled snacktacular all-natural protection from hunger up to NINE times per box!
+  suffix: Honk Donks
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodDonkpocketHonk
+    - id: FoodDonkpocketHonk
+    - id: FoodDonkpocketHonk
+    - id: FoodDonkpocketHonk
+    - id: FoodDonkpocketHonk
+    - id: FoodDonkpocketHonk
+    - id: FoodDonkpocketHonk
+    - id: FoodDonkpocketHonk
+    - id: FoodDonkpocketHonk
+  - type: Sprite
+    state: banana-box
+  - type: Item
+    sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
+
+- type: entity
+  parent: BoxSurvivalDonk
+  id: BoxSurvivalDonkBerry
+  name: Donk Co. emergency flavor survival box
+  description: Beat the Ration Rut with some berry good eating! Berry Blast Donkpockets deliver unrivaled snacktacular all-natural protection from hunger up to NINE times per box!
+  suffix: Berry Donks
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodDonkpocketBerry
+    - id: FoodDonkpocketBerry
+    - id: FoodDonkpocketBerry
+    - id: FoodDonkpocketBerry
+    - id: FoodDonkpocketBerry
+    - id: FoodDonkpocketBerry
+    - id: FoodDonkpocketBerry
+    - id: FoodDonkpocketBerry
+    - id: FoodDonkpocketBerry
+  - type: Sprite
+    state: berry-box
+  - type: Item
+    sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
+
+- type: entity
+  parent: BoxSurvivalDonk
+  id: BoxSurvivalDonkMoth
+  name: Donk Co. empty sock drawer survival box
+  description: No moth balls here! Infused with CelluLicious FlavorFiber, these Clothpocket Moth Donks deliver unrivaled snacktacular all-natural protection from hunger up to NINE times per box!
+  suffix: Moth Donks
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodDonkpocketMoth
+    - id: FoodDonkpocketMoth
+    - id: FoodDonkpocketMoth
+    - id: FoodDonkpocketMoth
+    - id: FoodDonkpocketMoth
+    - id: FoodDonkpocketMoth
+    - id: FoodDonkpocketMoth
+    - id: FoodDonkpocketMoth
+    - id: FoodDonkpocketMoth
+  - type: Sprite
+    state: moth-box
+  - type: Item
+    sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
+
+- type: entity
+  parent: BoxSurvivalDonk
+  id: BoxSurvivalDonkDink
+  name: Donk Co. good times survival box
+  description: When life becomes too good to be true, our patented Dinkpockets will ground you back with the reminder that sadness and suffering still exist in this universe, delivering unrivaled culinary distress up to NINE times per box!
+  suffix: Dink Donks
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodDonkpocketDink
+    - id: FoodDonkpocketDink
+    - id: FoodDonkpocketDink
+    - id: FoodDonkpocketDink
+    - id: FoodDonkpocketDink
+    - id: FoodDonkpocketDink
+    - id: FoodDonkpocketDink
+    - id: FoodDonkpocketDink
+    - id: FoodDonkpocketDink
+  - type: Sprite
+    state: dink-box
+  - type: Item
+    sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
+

@@ -1,8 +1,8 @@
 # Most of these have DO NOT MAP, since stations are completely unequipped to deal with ship combat + these are basically placeholder.
 
-- type: entity
+- type: entity #coyote
   id: ShuttleGunSvalinnMachineGunCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: [ BaseMachineCircuitboard, BaseC2ExpeditionContraband ]
   name: LSE-400c "Svalinn machine gun" machine board
   description: A machine printed circuit board for an LSE-400c "Svalinn machine gun".
   suffix: DO NOT MAP, Machine Board
@@ -19,6 +19,23 @@
       # Manipulator: 6 # Frontier
       Steel: 5
       CableHV: 5
+
+# START COYOTE
+- type: entity
+  id: ShuttleGunChortMachineGunCircuitboard
+  parent: [BaseMachineCircuitboard, BaseC3MetaSec]
+  name: MG-60 "Chort" MAMG Circuit Board
+  description: A machine printed circuit board for an MG-60 "Chort" Magnetically Assisted Machine Gun. It prints ammo on the fly, so, no worries there!
+  categories: [ DoNotMap ]
+  components:
+  - type: Sprite
+    state: security
+  - type: MachineBoard
+    prototype: CSShuttleGunChortMachineGun
+    stackRequirements: # Unupgradable. What you see is what you get. It's pretty good though!
+      Steel: 5
+      CableHV: 5
+# END COYOTE
 
 - type: entity
   id: ShuttleGunPerforatorCircuitboard

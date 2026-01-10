@@ -26,7 +26,9 @@
   - ShipyardConstruct
   - ShipyardCopperhead
   - ShipyardCourier
+  - ShipyardCrescent
   - ShipyardCrossroads
+  - ShipyardDragonfly
   - ShipyardDruid
   - ShipyardEagle
   - ShipyardGarden
@@ -59,6 +61,7 @@
   - ShipyardSkipper
   - ShipyardSpirit
   - ShipyardStasis
+  - ShipyardStringer
   - ShipyardSurveyor
   - ShipyardTide
   - ShipyardVagabond
@@ -175,6 +178,11 @@
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Copperhead.xml"
 
 - type: guideEntry
+  id: ShipyardCrescent
+  name: guide-entry-shipyard-crescent
+  text: "/ServerInfo/_NF/Guidebook/Shipyard/Crescent.xml"
+
+- type: guideEntry
   id: ShipyardCourier
   name: guide-entry-shipyard-courier
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Courier.xml"
@@ -183,6 +191,11 @@
   id: ShipyardCrossroads
   name: guide-entry-shipyard-crossroads
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Crossroads.xml"
+
+- type: guideEntry
+  id: ShipyardDragonfly
+  name: guide-entry-shipyard-dragonfly
+  text: "/ServerInfo/_NF/Guidebook/Shipyard/Dragonfly.xml"
 
 - type: guideEntry
   id: ShipyardDruid
@@ -343,6 +356,11 @@
   id: ShipyardStasis
   name: guide-entry-shipyard-stasis
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Stasis.xml"
+
+- type: guideEntry
+  id: ShipyardStringer
+  name: guide-entry-shipyard-stringer
+  text: "/ServerInfo/_NF/Guidebook/Shipyard/Stringer.xml"
 
 - type: guideEntry
   id: ShipyardSurveyor

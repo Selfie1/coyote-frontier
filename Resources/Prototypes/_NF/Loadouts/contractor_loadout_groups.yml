@@ -1,6 +1,7 @@
 - type: loadoutGroup
   id: ContractorJumpsuit
   name: loadout-group-contractor-jumpsuit
+  minLimit: 0 # Coyote
   loadouts:
   - ContractorClothingUniformJumpsuitColorGrey
   - ContractorClothingUniformJumpskirtColorGrey
@@ -224,6 +225,7 @@
 - type: loadoutGroup
   id: ContractorBackpack
   name: loadout-group-contractor-backpack
+  minLimit: 0 # Coyote
   loadouts:
   - ContractorClothingBackpack
   - ContractorClothingBackpackDuffel
@@ -434,6 +436,7 @@
 - type: loadoutGroup
   id: ContractorShoes
   name: loadout-group-contractor-shoes
+  minLimit: 0 # Coyote
   loadouts:
   - ContractorClothingShoesColorBlack
   - ContractorClothingShoesClothwrap
@@ -812,12 +815,10 @@
   - ContractorClicker
   - ContractorSoapNT
   - PlushieLizard
+  - PlushieExperiment # Coyote: Add Expie plushie to loadout
   - ContractorPlushieSharkGrey
   - ContractorPlushieSharkBlue
   - ContractorPlushieSharkPink
-  - ContractorHarmonicaInstrument
-  - ContractorSaxophoneInstrument
-  - ContractorAcousticGuitarInstrument
   - ContractorPonderingOrb
   - ContractorPlushieRGBee
   - ContractorMysterySpaceBladeBox
@@ -852,7 +853,6 @@
   - ContractorNTHandyFlag
   - ContractorBalloonNT
   - ContractorFlashlightUmbrella
-  - ContractorDawInstrumentFlatpack
   - ContractorHoverbikeFlatpack
   - ContractorHoverchairFlatpack
   - ContractorEmotionalPetCarrier
@@ -876,6 +876,7 @@
 - type: loadoutGroup
   id: ContractorFace
   name: loadout-group-contractor-face
+  minLimit: 0 # Coyote
   loadouts:
   - ContractorClothingMaskBreath
   - ContractorClothingMaskBreathMedical
@@ -905,10 +906,28 @@
   - ContractorNFBoxSurvivalExtendedNitrogen
   - ContractorNFBoxSurvivalSheleg
   - ContractorNFBoxSurvivalExtendedSheleg
+  - ContractorNFBoxSurvivalDonk
+  - ContractorNFBoxSurvivalDonkSpicy
+  - ContractorNFBoxSurvivalDonkTeriyaki
+  - ContractorNFBoxSurvivalDonkDank
+  - ContractorNFBoxSurvivalDonkPizza
+  - ContractorNFBoxSurvivalDonkHonk
+  - ContractorNFBoxSurvivalDonkBerry
+  - ContractorNFBoxSurvivalDonkMoth
+  - ContractorNFBoxSurvivalDonkDink
   fallbacks:
   - ContractorNFBoxSurvival
   - ContractorNFBoxSurvivalNitrogen
   - ContractorNFBoxSurvivalSheleg
+  - ContractorNFBoxSurvivalDonk
+  - ContractorNFBoxSurvivalDonkSpicy
+  - ContractorNFBoxSurvivalDonkTeriyaki
+  - ContractorNFBoxSurvivalDonkDank
+  - ContractorNFBoxSurvivalDonkPizza
+  - ContractorNFBoxSurvivalDonkHonk
+  - ContractorNFBoxSurvivalDonkBerry
+  - ContractorNFBoxSurvivalDonkMoth
+  - ContractorNFBoxSurvivalDonkDink
 
 - type: loadoutGroup
   id: ContractorEncryptionKey

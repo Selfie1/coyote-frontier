@@ -23,6 +23,7 @@
     Hair: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
+    NeckFluff: MobHumanoidAnyMarking
     UndergarmentTop: MobHumanoidAnyMarking
     UndergarmentBottom: MobHumanoidAnyMarking
     Genital: MobHumanoidAnyMarking
@@ -67,6 +68,9 @@
       points: 35
       required: false
     Snout:
+      points: 35
+      required: false
+    NeckFluff:
       points: 35
       required: false
     # Frontier: apparently these don't exist on Delta

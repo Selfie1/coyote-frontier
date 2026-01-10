@@ -22,6 +22,7 @@
   sprites:
     Head: MobArachnidHead
     Snout: MobHumanoidAnyMarking
+    NeckFluff: MobHumanoidAnyMarking
     UndergarmentTop: MobHumanoidAnyMarking
     UndergarmentBottom: MobHumanoidAnyMarking
     Genital: MobHumanoidAnyMarking

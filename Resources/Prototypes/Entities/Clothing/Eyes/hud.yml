@@ -30,6 +30,7 @@
     damageContainers:
     - Inorganic
     - Silicon
+    - IPC # CS - Add IPC damage container
 
 - type: entity
   parent: [ClothingEyesBase, ShowMedicalIcons]
@@ -180,6 +181,7 @@
     damageContainers:
     - Biological
     - Inorganic
+    - IPC # CS - Add IPC damage container
   - type: ShowSyndicateIcons
 
 - type: entity
@@ -196,6 +198,7 @@
     damageContainers:
     - Biological
     - Inorganic
+    - IPC # CS - Add IPC damage container
   - type: ShowHungerIcons
   - type: ShowThirstIcons
   - type: ShowSyndicateIcons
