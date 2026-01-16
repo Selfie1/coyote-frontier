@@ -1,30 +1,231 @@
 # Flavours
 - type: entity
-  name: Bbq Donk Pocket
+  name: Banana Donk Pocket
   parent: FoodDonkpocketBase
-  id: FoodDonkpocketBbqDIY
-  description: Add heat for the easiest backyard BBQ!
+  id: FoodDonkpocketBananaDIY
+  description: An artisan made banana flavoured donk pocket!
   components:
   - type: FlavorProfile
     flavors:
-      - wassail
-      - bbq
-      - bread
+      - banana
+      - sweet-dough
+  - type: Sprite
+    sprite: _CS/Objects/Consumable/Food/Baked/diydonkpocket.rsi
+    state: banana
+
+- type: entity
+  name: Banana Split Donk Pocket
+  parent: FoodDonkpocketBase
+  id: FoodDonkpocketBananaSplitDIY
+  description: An artisan made banana split flavoured donk pocket!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - banana
+    - creamy
+    - sweet-dough
+  - type: Sprite
+    sprite: _CS/Objects/Consumable/Food/Baked/diydonkpocket.rsi
+    state: banana_split
+
+- type: entity
+  name: Bbq Donk Pocket
+  parent: FoodDonkpocketBase
+  id: FoodDonkpocketBbqDIY
+  description: An artisan made bbq flavoured donk pocket!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - savory
+    - bbq
+    - bread
   - type: Sprite
     sprite: _CS/Objects/Consumable/Food/Baked/diydonkpocket.rsi
     state: bbq
 
 - type: entity
-  name: Banana Donk Pocket
+  name: Berry Donk Pocket
   parent: FoodDonkpocketBase
-  id: FoodDonkpocketBananaDIY
-  description: Banana
+  id: FoodDonkpocketBerryDIY
+  description: An artisan made Berry flavoured donk pocket!
   components:
   - type: FlavorProfile
     flavors:
-    - wassail
-    - sweet
+    - fruity
+    - sweet-dough
+  - type: Sprite
+    sprite: _CS/Objects/Consumable/Food/Baked/diydonkpocket.rsi
+    state: berry
+
+- type: entity
+  name: Cherry Donk Pocket
+  parent: FoodDonkpocketBase
+  id: FoodDonkpocketCherryDIY
+  description: An artisan made Cherry flavoured donk pocket!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - cherry
+    - sweet-dough
+  - type: Sprite
+    sprite: _CS/Objects/Consumable/Food/Baked/diydonkpocket.rsi
+    state: cherry
+
+- type: entity
+  name: Chocolate Donk Pocket
+  parent: FoodDonkpocketBase
+  id: FoodDonkpocketChocolateDIY
+  description: An artisan made Chocolate flavoured donk pocket!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - chocolate
+    - sweet-dough
+  - type: Sprite
+    sprite: _CS/Objects/Consumable/Food/Baked/diydonkpocket.rsi
+    state: chocolate
+
+- type: entity
+  name: Dank Donk Pocket
+  parent: FoodDonkpocketBase
+  id: FoodDonkpocketDankDIY
+  description: An artisan made donk pocket for getting high!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - mysterious
+    - sweet-dough
+  - type: Sprite
+    sprite: _CS/Objects/Consumable/Food/Baked/diydonkpocket.rsi
+    state: dank
+
+- type: entity
+  name: Honey Donk Pocket
+  parent: FoodDonkpocketBase
+  id: FoodDonkpocketHoneyDIY
+  description: An artisan made Honey flavoured donk pocket!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - honey
+    - sweet-dough
+  - type: Sprite
+    sprite: _CS/Objects/Consumable/Food/Baked/diydonkpocket.rsi
+    state: honey
+
+- type: entity
+  name: Moth Donk Pocket
+  parent: FoodDonkpocketBase
+  id: FoodDonkpocketMothDIY
+  description: An artisan made cloth flavoured donk pocket!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - cotton
+    - sweet-dough
+  - type: Sprite
+    sprite: _CS/Objects/Consumable/Food/Baked/diydonkpocket.rsi
+    state: moth
+
+- type: entity
+  name: Orange Donk Pocket
+  parent: FoodDonkpocketBase
+  id: FoodDonkpocketOrangeDIY
+  description: An artisan made Orange flavoured donk pocket!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - fruity
+    - sweet-dough
+  - type: Sprite
+    sprite: _CS/Objects/Consumable/Food/Baked/diydonkpocket.rsi
+    state: orange
+
+- type: entity
+  name: Pizza Donk Pocket
+  parent: FoodDonkpocketBase
+  id: FoodDonkpocketPizzaDIY
+  description: An artisan made Pizza flavoured donk pocket!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - tomato
+    - cheesy
     - bread
   - type: Sprite
     sprite: _CS/Objects/Consumable/Food/Baked/diydonkpocket.rsi
-    state: banana
+    state: pizza
+
+- type: entity
+  name: Plain Donk Pocket
+  parent: FoodDonkpocketBase
+  id: FoodDonkpocketPlainDIY
+  description: An artisan made Donk Pocket!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - meaty
+    - bread
+  - type: Sprite
+    sprite: _CS/Objects/Consumable/Food/Baked/diydonkpocket.rsi
+    state: plain
+
+- type: entity
+  name: Spicy Donk Pocket
+  parent: FoodDonkpocketBase
+  id: FoodDonkpocketSpicyDIY
+  description: An artisan made Spicy Donk Pocket!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - spicy
+    - meaty
+    - bread
+  - type: Sprite
+    sprite: _CS/Objects/Consumable/Food/Baked/diydonkpocket.rsi
+    state: spicy
+
+- type: entity
+  name: Teriyaki Donk Pocket
+  parent: FoodDonkpocketBase
+  id: FoodDonkpocketTeriyakiDIY
+  description: An artisan made Teriyaki flavoured donk pocket!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - sweet
+    - savory
+    - bread
+  - type: Sprite
+    sprite: _CS/Objects/Consumable/Food/Baked/diydonkpocket.rsi
+    state: teriyaki
+
+- type: entity
+  name: Pirozhki Donk Pocket
+  parent: FoodDonkpocketBase
+  id: FoodDonkpocketPirozhkiDIY
+  description: A pirozhki donk pocket, it's filled with onions, meat, and potatoes!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - meaty
+    - veggies
+    - bread
+  - type: Sprite
+    sprite: _CS/Objects/Consumable/Food/Baked/diydonkpocket.rsi
+    state: plain
+
+- type: entity
+  name: Mushroom Donk Pocket
+  parent: FoodDonkpocketBase
+  id: FoodDonkpocketMushroomDIY
+  description: A donk pocket filled with meat and mushrooms!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - mushroom
+    - meaty
+    - bread
+  - type: Sprite
+    sprite: _CS/Objects/Consumable/Food/Baked/diydonkpocket.rsi
+    state: plain
