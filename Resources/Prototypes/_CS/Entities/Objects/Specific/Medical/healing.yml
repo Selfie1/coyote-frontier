@@ -212,8 +212,6 @@
     Steel: 250
     Plastic: 100
   result: RepairPatch1
-  categories:
-  - Engineering
   completetime: 5
 
 - type: latheRecipe
@@ -225,6 +223,4 @@
     Gold: 500
     Silver: 500
   result: RepairSpray
-  categories:
-  - Engineering
-  completetime: 20
+  completetime: 10

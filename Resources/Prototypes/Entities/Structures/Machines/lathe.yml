@@ -354,6 +354,7 @@
     - RoboticsStatic
     - BorgModulesStatic
     - BorgLimbsStatic
+    - CSIPCStatic # Coyote - IPC Topicals
     dynamicPacks:
     - Robotics
     - BorgModules
@@ -533,6 +534,7 @@
     - SurgeryStatic
     - NFMedicalStatic # Frontier
     - AACTableStatic # DeltaV - AAC Tablets
+    - CSIPCStatic # Coyote - IPC Topicals
     # dynamicPacks: # Frontier
     # - Chemistry # Frontier
   - type: Machine

@@ -1,0 +1,5 @@
+- type: latheRecipePack
+  id: CSIPCStatic
+  recipes:
+  - RepairPatch
+  - RepairSpray
