@@ -2,8 +2,8 @@
 job-name-bailiff = Bailiff
 job-name-brigmedic = Brigmedic
 job-name-cadet-nf = Cadet
-job-name-contractor = Contractor
-job-name-contractor-interview = Contractor Applicant
+job-name-contractor = Resident
+job-name-contractor-interview = Resident Applicant
 job-name-deputy = Deputy
 job-name-nf-detective = Detective
 job-name-doc = Director of Care
@@ -30,7 +30,7 @@ job-name-valet = Valet
 job-title-ert-mail-carrier = ERT Mail Carrier
 
 # Role timers - Keep these alphabetical, please
-JobContractorInterview = Contractor Applicant
+JobContractorInterview = Resident Applicant
 JobERTMailCarrier = ERT Mail Carrier
 JobMercenary = Mercenary
 JobMercenaryInterview = Mercenary Applicant
