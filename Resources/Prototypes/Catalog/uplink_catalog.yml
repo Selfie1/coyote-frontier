@@ -1930,7 +1930,7 @@
     - UplinkPointless
   conditions:
   - !type:ListingLimitedStockCondition
-    stock: 3
+    stock: 30 #coyote
 
 # Job Specific
 

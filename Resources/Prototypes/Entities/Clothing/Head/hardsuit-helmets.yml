@@ -175,7 +175,7 @@
     lowPressureMultiplier: 1000
 
 - type: entity
-  parent: ClothingHeadHardsuitBase
+  parent: [ ClothingHeadHardsuitBase, NFClothingHeadHardsuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitMaxim
   categories: [ HideSpawnMenu ]
   name: salvager maxim helmet
@@ -195,6 +195,9 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+  - type: PointLight # Luxury Hardsuit Light
+    radius: 7
+    energy: 3
 
 #Security Hardsuit
 - type: entity

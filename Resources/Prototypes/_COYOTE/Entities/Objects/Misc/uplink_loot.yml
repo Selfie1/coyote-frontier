@@ -16,31 +16,21 @@
       color: red
   - type: RandomSpawner
     prototypes:
-    - WeaponCaseShortMk58Expedition
     - WeaponCaseShortUniversalExpedition
-    - WeaponCaseShortPollockExpedition
     - WeaponCaseShortFaithExpedition
-    - WeaponCaseShortArgentiExpedition
     - WeaponCaseShortLuckyExpedition
     - WeaponCaseShortDeckardExpedition
     - WeaponCaseShortRitland45Expedition
+    - WeaponCaseShortRevolverPirate
     - WeaponCaseLongBarlowsBoltExpedition
-    - WeaponCaseLongRepeaterExpedition
     - WeaponCaseLongSniperCeremonialExpedition
-    - Shiv
-    - ReinforcedShiv
-    - PlasmaShiv
-    - UraniumShiv
-    - ScalpelShiv
-    - BaseBallBat
     - Stunprod
-    - CombatKnife
-    - SurvivalKnife
+    - ThrowingKnife
+    - KukriKnife
     chance: 1.0
     offset: 0.0
     rarePrototypes:
-    - SpawnDungeonLootGunT2
-    - SpawnDungeonLootMeleeT2
+    - SpawnUplinkLootT2
     rareChance: 0.05
 
 - type: entity
@@ -64,28 +54,18 @@
     - WeaponCaseShortCobra
     - WeaponCaseShortN1984Expedition
     - WeaponCaseShortViper
-    - WeaponCaseShortFitzExpedition
     - WeaponCaseShortWard45Expedition
-    - WeaponCaseShortRevolverPirate
     - WeaponCaseLongC20r
     - WeaponCaseLongJackdaw
-    - WeaponCaseLongGestioExpedition
-    - WeaponCaseLongWeaponRifleNovaliteC1Expedition
     - WeaponCaseLongSVSExpedition
     - WeaponCaseLongKammererExpedition
-    - WeaponCaseShortLaserGunExpedition
-    - CombatKnife
-    - SurvivalKnife
     - CaneSheathFilled
-    - Machete
-    - KukriKnife
     - Stunbaton
-    - ThrowingKnife
+    - WeaponCaseShortEnergyCutlassExpedition
     chance: 1.0
     offset: 0.0
     rarePrototypes:
-    - SpawnDungeonLootGunT3
-    - SpawnDungeonLootMeleeT3
+    - SpawnUplinkLootT3
     rareChance: 0.05
 
 - type: entity
@@ -120,11 +100,12 @@
     - Claymore
     - Truncheon
     - WeaponCaseShortEnergyDaggerExpedition
+    - ClothingOuterHardsuitMaximPrototype
+    - ClothingOuterHardsuitScaf
     chance: 1.0
     offset: 0.0
     rarePrototypes:
-    - SpawnDungeonLootGunT4
-    - SpawnDungeonLootMeleeT4
+    - SpawnUplinkLootT4
     rareChance: 0.05
 
 - type: entity
@@ -156,14 +137,16 @@
     - WeaponCaseLongXrayCannonExpedition
     - WeaponCaseLongTemperatureGunExpedition
     - WeaponCaseLongPrototypePulseRifleExpedition
+    - WeaponCaseShortEnergySwordExpedition
+    - WeaponCaseShortDocumentsFilled
     - Katana
     - CaptainSabre
     - SecBreachingHammer
+    - ClothingOuterHardsuitWizardBrick
     chance: 1.0
     offset: 0.0
     rarePrototypes:
-    - SpawnDungeonLootGunT5
-    - SpawnDungeonLootMeleeT5
+    - SpawnUplinkLootT5
     rareChance: 0.05
 
 - type: entity
@@ -190,9 +173,11 @@
     - WeaponCaseLongEnergyGunExpedition
     - WeaponCaseLongLaserCannonExpedition
     - WeaponCaseHeavyAsmgtExpeditions
-    - WeaponCaseShortEnergySwordExpedition
-    - WeaponCaseShortEnergyCutlassExpedition
     - WeaponCaseShortEnergySwordDoubleExpedition
+    - WeaponCaseShortEnergyShieldExpedition
+    - EnergyKatana
+    - ClothingOuterHardsuitWizard
+    - ClothingOuterHardsuitSyndieCommander
     chance: 1.0
     offset: 0.0
 
@@ -215,3 +200,29 @@
     - CrateTradeContrabandSecure2
     - CrateTradeContrabandSecure1
     - CrateTradeContrabandSecure1
+
+- type: entity
+  name: random hypospray
+  id: SpawnUplinkHypospray
+  parent: MarkerBasePlaceFree
+  suffix: Dungeon
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+      scale: 0.7, 0.7
+    - sprite: Objects/Specific/Medical/hypospray.rsi
+      state: hypo
+    - sprite: _NF/Markers/general.rsi
+      state: questionmark
+      color: red
+  - type: RandomSpawner
+    prototypes:
+    - HypoMini
+    - HypoBrigmedic
+    - HypoMiniLimitedEdition
+    chance: 1
+    offset: 0.0
+    rarePrototypes:
+    - Hypospray
+    rareChance: 0.01

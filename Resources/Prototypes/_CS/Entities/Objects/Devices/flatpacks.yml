@@ -48,3 +48,79 @@
   - type: StaticPrice
     price: 1000
     vendPrice: 10000
+
+- type: entity
+  parent: BaseFlatpack
+  id: SyndicateElectricRangeFlatpack
+  name: Donk Co. electric range flatpack
+  description: A flatpack used for deploying a donk co. electric range.
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+    - state: overlay
+      color: "#A46106"
+      map: ["enum.FlatpackVisualLayers.Overlay"]
+    - state: icon-default
+  - type: Flatpack
+    entity: SyndicateKitchenElectricRange
+  - type: StaticPrice
+    price: 1000
+    vendPrice: 10000
+
+- type: entity
+  parent: BaseFlatpack
+  id: SyndicateMicrowaveFlatpack
+  name: Donk Co. microwave flatpack
+  description: A flatpack used for deploying a donk co. microwave.
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+    - state: overlay
+      color: "#A46106"
+      map: ["enum.FlatpackVisualLayers.Overlay"]
+    - state: icon-default
+  - type: Flatpack
+    entity: SyndicateMicrowave
+  - type: StaticPrice
+    price: 1000
+    vendPrice: 10000
+
+- type: entity
+  parent: BaseFlatpack
+  id: SyndicateBoozeFlatpack
+  name: Bruise-O-Mat flatpack
+  description: A flatpack used for deploying a Bruise-O-Mat.
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+    - state: overlay
+      color: "#A46106"
+      map: ["enum.FlatpackVisualLayers.Overlay"]
+    - state: icon-default
+  - type: Flatpack
+    entity: VendingMachineBoozeSyndicate
+  - type: StaticPrice
+    price: 1000
+    vendPrice: 10000
+
+- type: entity
+  parent: BaseFlatpack
+  id: SyndieDrobeFlatpack
+  name: SyndieDrobe flatpack
+  description: A flatpack used for deploying a SyndieDrobe.
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+    - state: overlay
+      color: "#A46106"
+      map: ["enum.FlatpackVisualLayers.Overlay"]
+    - state: icon-default
+  - type: Flatpack
+    entity: VendingMachineSyndieDrobe
+  - type: StaticPrice
+    price: 1000
+    vendPrice: 10000

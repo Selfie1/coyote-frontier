@@ -52,6 +52,10 @@
     - UplinkPirateUtility
     - UplinkPirateExplosives
     - UplinkPirateMedical #coyote
+    - UplinkPirateDeception #coyote
+    - UplinkPirateLoot #coyote
+    - UplinkPirateWearables #coyote
+    - UplinkPirateMachines #coyote
     currencyWhitelist:
     - Doubloon
     balance:

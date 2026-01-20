@@ -15,3 +15,7 @@ store-category-pirateammo = Ammunition
 store-category-pirateexplosives = Explosives
 # Coyote Pirate Uplink
 store-category-piratemedical = Medical
+store-category-piratedeception = Deception
+store-category-pirateloot = Loot
+store-category-piratewearables = Wearables
+store-category-piratemachines = Machines
