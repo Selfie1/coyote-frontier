@@ -10634,9 +10634,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -5.5,-10.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2994
@@ -10645,9 +10642,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 15.5,-0.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2995
@@ -10656,9 +10650,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 6.5,-10.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2997
@@ -10667,9 +10658,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 0.5,-1.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2998
@@ -10678,9 +10666,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -14.5,-0.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
     - type: AtmosPipeColor
       color: '#0055CCFF'
 - proto: GasVentScrubber
@@ -10736,9 +10721,6 @@ entities:
     - type: Transform
       pos: 0.5,1.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2990
@@ -10747,9 +10729,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 15.5,-2.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2991
@@ -10758,9 +10737,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 7.5,-10.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2992
@@ -10769,9 +10745,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -6.5,-10.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2993
@@ -10780,9 +10753,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -14.5,-2.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
     - type: AtmosPipeColor
       color: '#990000FF'
 - proto: GeneratorBasic15kW
