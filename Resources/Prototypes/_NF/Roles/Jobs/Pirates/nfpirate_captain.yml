@@ -51,7 +51,7 @@
   storage:
     back:
     - AppraisalTool
-    - PirateTechFabFlatpack
+    # - PirateTechFabFlatpack # CS - Disable pending piratefab rework/change
     - Multitool
 
 - type: chameleonOutfit
