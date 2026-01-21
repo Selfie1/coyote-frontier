@@ -91,7 +91,7 @@
         # Slash: -60 # Ditto
         # Structural: -10 # good, but please use autosolder.
         Cold: -45
-        Heat: -45 # not useless, but please use autosolder.
+        Heat: -45
         Shock: -45
         Bloodloss: -30
     bloodlossModifier: -10 # stops bleeding
