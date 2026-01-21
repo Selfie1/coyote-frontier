@@ -497,6 +497,7 @@
       staticPacks:
       - NfsdAmmoStatic # Frontier: SecurityAmmoStatic<NfsdAmmoStatic
       - NFMercenaryMagazineStatic
+      - CSMagazineStatic # CS - Add .40 mags
     - type: MaterialStorage
       whitelist:
         tags:

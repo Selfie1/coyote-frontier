@@ -251,6 +251,7 @@
     - NFMercenaryStorageStatic
     - NfsdToolsStatic
     - NfsdTargetsStatic
+    - CSMagazineStatic
     - NfsdBoardsStatic
   - type: BlueprintReceiver
     whitelist:
@@ -302,6 +303,7 @@
     - NFMercenaryMagazineStatic
     - NFTopicalsStatic
     - CSIPCTopicalsStatic
+    - CSMagazineStatic
     - NFMercenaryArchetypeStatic
 
   - type: BlueprintReceiver
