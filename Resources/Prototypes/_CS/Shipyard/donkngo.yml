@@ -11,7 +11,7 @@
 - type: vessel
   id: DonknGo
   parent: BaseVessel
-  name: LL2 Donk n Go
+  name: LL1 Donk n Go
   description: "Donk co's new franchise package includes your very own floating restraunt to craft homemade donk pockets!"
   price: 80000
   category: Medium
