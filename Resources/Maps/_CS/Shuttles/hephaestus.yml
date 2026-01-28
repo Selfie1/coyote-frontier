@@ -4,8 +4,8 @@ meta:
   engineVersion: 261.2.0
   forkId: ""
   forkVersion: ""
-  time: 01/26/2026 17:47:31
-  entityCount: 1618
+  time: 01/28/2026 20:20:12
+  entityCount: 1606
 maps: []
 grids:
 - 1
@@ -656,7 +656,6 @@ entities:
     - type: DeviceList
       devices:
       - 931
-      - 56
       - 930
       - 913
       - 914
@@ -667,7 +666,6 @@ entities:
       parent: 1
     - type: DeviceList
       devices:
-      - 64
       - 918
       - 928
   - uid: 4
@@ -678,7 +676,6 @@ entities:
     - type: DeviceList
       devices:
       - 933
-      - 57
       - 915
   - uid: 5
     components:
@@ -690,7 +687,6 @@ entities:
       devices:
       - 943
       - 922
-      - 63
       - 934
       - 921
   - uid: 6
@@ -701,7 +697,6 @@ entities:
       parent: 1
     - type: DeviceList
       devices:
-      - 62
       - 944
       - 923
   - uid: 7
@@ -712,7 +707,6 @@ entities:
       parent: 1
     - type: DeviceList
       devices:
-      - 58
       - 924
       - 939
   - uid: 8
@@ -723,7 +717,6 @@ entities:
       parent: 1
     - type: DeviceList
       devices:
-      - 59
       - 925
       - 940
   - uid: 9
@@ -734,7 +727,6 @@ entities:
       parent: 1
     - type: DeviceList
       devices:
-      - 60
       - 926
       - 941
   - uid: 10
@@ -745,7 +737,6 @@ entities:
       parent: 1
     - type: DeviceList
       devices:
-      - 61
       - 927
       - 942
   - uid: 11
@@ -756,7 +747,6 @@ entities:
       parent: 1
     - type: DeviceList
       devices:
-      - 66
       - 935
       - 916
   - uid: 12
@@ -767,7 +757,6 @@ entities:
       parent: 1
     - type: DeviceList
       devices:
-      - 65
       - 932
       - 919
   - uid: 13
@@ -779,7 +768,6 @@ entities:
       devices:
       - 912
       - 936
-      - 68
       - 911
       - 937
   - uid: 14
@@ -791,7 +779,6 @@ entities:
       devices:
       - 929
       - 917
-      - 67
   - uid: 15
     components:
     - type: Transform
@@ -799,7 +786,6 @@ entities:
       parent: 1
     - type: DeviceList
       devices:
-      - 69
       - 920
       - 938
 - proto: Airlock
@@ -1041,121 +1027,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -15.5,-14.5
       parent: 1
-- proto: AirSensor
-  entities:
-  - uid: 56
-    components:
-    - type: Transform
-      pos: -11.5,-17.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 2
-  - uid: 57
-    components:
-    - type: Transform
-      pos: 6.5,-6.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 4
-  - uid: 58
-    components:
-    - type: Transform
-      pos: 4.5,2.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 7
-  - uid: 59
-    components:
-    - type: Transform
-      pos: 4.5,6.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 8
-  - uid: 60
-    components:
-    - type: Transform
-      pos: -3.5,6.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 9
-  - uid: 61
-    components:
-    - type: Transform
-      pos: -3.5,2.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 10
-  - uid: 62
-    components:
-    - type: Transform
-      pos: 1.5,10.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 6
-  - uid: 63
-    components:
-    - type: Transform
-      pos: -0.5,-2.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 5
-  - uid: 64
-    components:
-    - type: Transform
-      pos: -5.5,-6.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 3
-  - uid: 65
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -12.5,-9.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 12
-  - uid: 66
-    components:
-    - type: Transform
-      pos: 13.5,-9.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 11
-  - uid: 67
-    components:
-    - type: Transform
-      pos: -10.5,-27.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 14
-  - uid: 68
-    components:
-    - type: Transform
-      pos: 15.5,-18.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 13
-  - uid: 69
-    components:
-    - type: Transform
-      pos: 11.5,-27.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 15
 - proto: AmeController
   entities:
   - uid: 70
@@ -2133,6 +2004,16 @@ entities:
       parent: 1
 - proto: CableApcExtension
   entities:
+  - uid: 56
+    components:
+    - type: Transform
+      pos: -1.5,10.5
+      parent: 1
+  - uid: 57
+    components:
+    - type: Transform
+      pos: -0.5,10.5
+      parent: 1
   - uid: 224
     components:
     - type: Transform
@@ -9210,20 +9091,20 @@ entities:
       parent: 1
 - proto: SubstationBasic
   entities:
-  - uid: 1222
-    components:
-    - type: Transform
-      pos: 11.5,-14.5
-      parent: 1
-  - uid: 1223
+  - uid: 58
     components:
     - type: Transform
       pos: 11.5,-5.5
       parent: 1
-  - uid: 1224
+  - uid: 59
     components:
     - type: Transform
       pos: -10.5,-5.5
+      parent: 1
+  - uid: 1222
+    components:
+    - type: Transform
+      pos: 11.5,-14.5
       parent: 1
 - proto: SuitStorageAtmos
   entities:
