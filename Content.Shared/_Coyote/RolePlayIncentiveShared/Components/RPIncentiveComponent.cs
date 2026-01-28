@@ -1,5 +1,6 @@
 using System.Linq;
 using Content.Server._Coyote;
+using Content.Shared._Coyote;
 using Content.Shared._Coyote.RolePlayIncentiveShared;
 using Content.Shared.FixedPoint;
 using Content.Shared.Hands.EntitySystems;
@@ -65,6 +66,13 @@ public sealed partial class RoleplayIncentiveComponent : Component
     [DataField]
     [ViewVariables(VVAccess.ReadWrite)]
     public List<ProtoId<RpiJobModifierPrototype>> JobModifiers = new();
+
+    ///  <summary>
+    ///  FreeLAncer RPI milker contrainer!!!
+    ///  </summary>
+    [DataField]
+    [ViewVariables(VVAccess.ReadWrite)]
+    public FlarpiDatacore FlarpiDatacore = new();
 
     #region Continuous Action Proxies
     /// <summary>
@@ -237,7 +245,6 @@ public struct PayoutDetails(
     public FixedPoint2 RawMultiplier = rawMultiplier;
     public bool HasMultiplier = hasMultiplier;
 }
-#endregion
 
 public sealed class RpiPaywardDetails()
 {
@@ -254,6 +261,8 @@ public sealed class RpiPaywardDetails()
     public TaxBracketResult TaxBracket = new();
     public Dictionary<RpiChatActionCategory, RpiJudgementDetails> ChatActionPays = new();
     public List<RpiAuraData> Auras = new();
+    public decimal CurrentFlarpiProgress = 0m;
+    public int BankedFlarpis = 0;
 
     /// <summary>
     /// Load the Tax Bracket Details
@@ -314,6 +323,12 @@ public sealed class RpiPaywardDetails()
     {
         RpiComponent = rpiComp;
     }
+
+    public void LoadFlarpiData(FlarpiDatacore flarpiData)
+    {
+        CurrentFlarpiProgress = flarpiData.CurrentProgress;
+        BankedFlarpis = flarpiData.BankedFlarpis;
+    }
 }
 
 public struct RpiJudgementDetails(
@@ -329,3 +344,31 @@ public struct RpiJudgementDetails(
     public float NumListenings = numlistenings;
     public float FinalScore = finalscore;
 }
+
+[DataDefinition]
+public sealed partial class FlarpiDatacore
+{
+    [DataField, ViewVariables(VVAccess.ReadWrite)]
+    public ProtoId<FlarpiSettingsPrototype> DatacoreType = "FlarpiSettings_Default";
+
+    [DataField, ViewVariables(VVAccess.ReadWrite)]
+    public decimal CurrentProgress = 0m;
+    // i just wanted to use a decimal somewhere, looked cute
+
+    [DataField, ViewVariables(VVAccess.ReadWrite)]
+    public int BankedFlarpis = 0;
+
+    [DataField, ViewVariables(VVAccess.ReadWrite)]
+    public TimeSpan LastFlarpiCheck = TimeSpan.Zero;
+
+    [DataField, ViewVariables(VVAccess.ReadWrite)]
+    public TimeSpan FlarpiCheckInterval = TimeSpan.FromSeconds(1);
+
+    public FlarpiDatacore()
+    {
+        // piss
+    }
+}
+
+#endregion
+

@@ -1,0 +1,9 @@
+- type: flarpiSettings
+  id: FlarpiSettings_Default
+  pointsPerFlarpi: 1000
+  flarpiesPerHourAlone: 5
+  flarpiesPerHourOneNearby: 10
+  flarpiesPerHourTwoNearby: 20
+  flarpiesPerHourThreeOrMoreNearby: 40
+  nearbyRadius: 25
+

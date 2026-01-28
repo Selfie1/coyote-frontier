@@ -23,3 +23,7 @@ coyote-rpi-journalism-pay-message-cooldown = Article published! Due to media con
 coyote-rpi-journalism-pay-message-bonus = Article published! You earned { $amount }$ (including { $lengthBonus }$ length bonus for { $charCount } characters).
 coyote-rpi-journalism-pay-message = Article published! You earned { $amount }$.
 
+coyote-rpi-flarpi-payout-message = You received your FLARPI payout of { $amount }DB for being such a good baddie!
+
+coyote-rpi-flarpi-has-banked = You also have { $amount }DB banked with FLARPI! Use the verb "Withdraw Den Bullion" to get it out!
+coyote-rpi-flarpi-got-more = [color=green]+{ $amount }DB[/color] for being such a good baddie, bringing your total FLARPI bank to [color=green]{ $totalAmount }DB[/color]! Use the verb "Withdraw Den Bullion" to get it out!
