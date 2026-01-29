@@ -16,6 +16,8 @@
   - ExteriorLightTube
   - LedLightBulb
   - LedLightTube
+  - DimLightBulb #Coyote
+  - WarmLightBulb #Coyote
 
 - type: latheRecipePack
   id: NFBasicToolsStatic
