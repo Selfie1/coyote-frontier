@@ -19,7 +19,7 @@
       coefficients:
         Blunt: 0.75
         Slash: 0.75
-        Piercing: 0.7     #minor buff to basic hard suits to make ExpMinHar less meta
+        Piercing: 0.7 # minor buff to basic hard suits to make ExpMinHar less meta
         Heat: 0.75
         Radiation: 0.65  
         Caustic: 0.8
