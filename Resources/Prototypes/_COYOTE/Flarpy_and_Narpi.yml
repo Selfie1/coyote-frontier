@@ -124,10 +124,10 @@
   - type: SouthernAccent
 
 - type: ghostRole
-  id: CatFlarpy
-  name: ghost-role-information-flarpy-name
-  description: ghost-role-information-flarpy-description
+  id: CatNarpy
+  name: ghost-role-information-narpy-name
+  description: ghost-role-information-narpy-description
   rules: ghost-role-information-emotional-support-rules
-  entityPrototype: MobCatFlarpy
+  entityPrototype: MobCatNarpy
   whitelisted: false
 
