@@ -1040,6 +1040,7 @@
       - id: CrateEvaKitParamedic
       - id: CrateChemistryVials
       - id: CrateChemistrySecureKitChemist
+      - id: CrateEvaKitCmo
       - id: MedicalTechFabFlatpack # Coyote
       - id: VendingMachineMedicalFlatpack # Coyote
       - id: VendingMachineChemicalsFlatpack # Coyote
