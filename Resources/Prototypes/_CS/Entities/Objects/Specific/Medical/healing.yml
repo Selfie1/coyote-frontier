@@ -138,7 +138,7 @@
     ModifyBloodLevel: 90
 
 - type: entity
-  name: synthetic emergency autoinjector
+  name: synthetic emergency auto-injector
   parent: ChemicalMedipen
   id: RepairAutoinjector
   description: Prevents system failure and instantly restores the system partially. Always seek medical attention after averted system failure.
@@ -170,28 +170,85 @@
     onlyAffectsMobs: false
     injectOnly: true
   - type: StaticPrice
-    vendPrice: 5000
+    vendPrice: 3000
   - type: SolutionContainerManager
     solutions:
       pen:
         maxVol: 15
         reagents:
         - ReagentId: Autosolder
-          Quantity: 20
-        - ReagentId: Sylexalin
           Quantity: 10
+        - ReagentId: Sylexalin
+          Quantity: 5
+
+- type: entity
+  name: sylashizine auto-injector
+  parent: ChemicalMedipen
+  id: SylashizineAutoinjector
+  description: A rapid injection of sylashizine, intended for combat applications.
+  components:
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: base-needle-inhand-left
+      - state: base-colorA-inhand-left
+        color: "#72519c"
+      - state: base-colorB-inhand-left
+      right:
+      - state: base-needle-inhand-right
+      - state: base-colorA-inhand-right
+        color: "#72519c"
+      - state: base-colorB-inhand-right
+  - type: Sprite
+    sprite: _CS/Objects/Specific/Medical/robotopicals.rsi
+    layers:
+    - state: sylash
+      map: ["enum.SolutionContainerLayers.Fill"]
+  - type: SolutionContainerVisuals
+    maxFillLevels: 1
+    changeColor: false
+    emptySpriteName: robor0
+  - type: Hypospray
+    solutionName: pen
+    transferAmount: 15
+    onlyAffectsMobs: false
+    injectOnly: true
+  - type: StaticPrice
+    vendPrice: 5000
+  - type: SolutionContainerManager
+    solutions:
+      pen:
+        maxVol: 15
+        reagents:
+        - ReagentId: Sylashizine
+          Quantity: 10
+        - ReagentId: Sylexalin
+          Quantity: 5
 
 - type: microwaveMealRecipe
   id: RecipeRepairAutoinjector
-  name: Synthetic Emergency Autoinjector
+  name: synthetic emergency auto-injector
   result: RepairAutoinjector
   time: 5
   group: Medicinal
   solids:
     BlankMediPen: 1
   reagents:
-    Autosolder: 20
-    Sylexalin: 10
+    Autosolder: 10
+    Sylexalin: 5
+  recipeType: MedicalAssembler
+
+- type: microwaveMealRecipe
+  id: RecipeSylashizineAutoinjector
+  name: sylashizine auto-injector
+  result: SylashizineAutoinjector
+  time: 5
+  group: Medicinal
+  solids:
+    BlankMediPen: 1
+  reagents:
+    Sylashizine: 10
+    Sylexalin: 5
   recipeType: MedicalAssembler
 
 - type: microwaveMealRecipe
