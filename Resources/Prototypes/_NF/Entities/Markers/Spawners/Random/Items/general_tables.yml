@@ -533,6 +533,8 @@
       - id: VendingMachineRoboDrobe
       - id: VendingMachineGeneDrobe
       - id: VendingMachineViroDrobe
+      - id: VendingMachineArcadia # Coyote: Added to the clothes tables as it is no longer contra.
+      - id: VendingMachineClothingPunk # Coyote: Added to the clothes tables as it is no longer contra.
     - !type:NestedSelector
       tableId: TableDungeonLootGeneralVendomatsContraband
       weight: 0.05
@@ -592,8 +594,8 @@
   table: !type:GroupSelector
     children:
       - id: VendingMachineMagivend
-      - id: VendingMachineArcadia
-      - id: VendingMachineClothingPunk
+      #- id: VendingMachineArcadia # Coyote: No longer contraband.
+      #- id: VendingMachineClothingPunk # Coyote: No longer contraband.
       - id: VendingMachineBountyVendPunk
       - id: VendingMachineSyndieContraband
 
