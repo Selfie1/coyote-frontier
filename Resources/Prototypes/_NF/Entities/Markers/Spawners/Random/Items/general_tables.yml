@@ -858,6 +858,7 @@
     - id: VendingMachineRestockNonLethalVend
     - id: VendingMachineRestockAutoTuneVend
     - id: VendingMachineRestockPottedPlantVend
+    - id: VendingMachineRestockBarista # Coyote: Since we added the barista vend, add the restock too!
 
 - type: entityTable
   id: TableDungeonLootGeneralCanisterBroken
