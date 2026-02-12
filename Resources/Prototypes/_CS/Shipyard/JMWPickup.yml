@@ -1,19 +1,22 @@
 # Author Info
-# GitHub: EkatrinaFC
-# Discord: CarrieDavis
+# GitHub: Wolfhauler/Carriedavis
+
+# Maintainer Info
+# GitHub: Wolfhauler/Carriedavis (https://github.com/Wolfhauler , https://github.com/EkatrinaFC)
+# Discord: Wolfhauler/Carriedavis
 
 # Shuttle Notes:
-# A cheap shitbox for players to upgrade or use as is. A basic cheap pickup truck at the basic trim package. Nothing special to it at all.
+# A simple pickup truck. Nothing in it is cutting edge or next generation. It is simple and idiot proof, fully future proofed.
 
 - type: vessel
   id: JMWPickup
   parent: BaseVessel
   name: LL0 JMW Pickup
-  description: A simple pickup truck. Nothing in it is cutting edge or next generation. It is simple and idiot proof, fully future proofed.
+  description: "A simple pickup truck. Nothing in it is cutting edge or next generation. It is simple and idiot proof, fully future proofed."
   price: 15000
   category: Small
   group: Shipyard
-  shuttlePath: Maps\_CS\Shuttles\JMWPickup.yml
+  shuttlePath: /Maps/_CS/Shuttles/JMWPickup.yml
   guidebookPage: Null
   class:
   - Civilian
@@ -23,10 +26,10 @@
 - type: gameMap
   id: JMWPickup
   mapName: 'JMW Pickup'
-  mapPath: Maps\_CS\Shuttles\JMWPickup.yml
+  mapPath: /Maps/_CS/Shuttles/JMWPickup.yml
   minPlayers: 0
   stations:
-    JMW Pickup:
+    DonknGo:
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
@@ -39,4 +42,4 @@
             ContractorInterview: [ 2, 2 ]
             PilotInterview: [ 2, 2 ]
             MercenaryInterview: [ 2, 2 ]
-            CompanionInterview: [ 2, 2]
+            CompanionInterview: [ 2, 2 ]
