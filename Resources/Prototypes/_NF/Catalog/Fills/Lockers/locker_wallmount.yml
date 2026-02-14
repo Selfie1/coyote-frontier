@@ -355,11 +355,10 @@
 
 # region Departments
 - type: entity
-  id: LockerWallColorHydroponicsEmpty
-  suffix: Empty, Frontier
-  parent: [LockerWallColorHydroponics, BaseStructureWallmount]
-  name: botanist wall locker
-  components:
+  id: LockerWallColorHydroponicsFilled
+  suffix: Filled, Frontier
+  parent: [LockerWallColorHydroponics, LockerBotanistFilled]
+  components: # fixes sprite errors from parenting
   - type: EntityStorageVisuals
     stateBaseClosed: base
     stateDoorOpen: open
@@ -380,16 +379,19 @@
         ents: []
 
 - type: entity
-  id: LockerWallColorHydroponicsFilled
-  suffix: Filled, Frontier
-  parent: LockerWallColorHydroponicsEmpty
-  components:
-  - type: EntityTableContainerFill
-    containers:
-      storagebase: !type:NestedSelector
-        tableId: FillLockerBotanist
+  id: LockerWallColorHydroponicsEmpty
+  suffix: Empty, Frontier
+  parent:
+  - LockerWallColorHydroponics
+  - BaseStructureWallmount
+  name: botanist wall locker
+  components: # fixes sprite errors from parenting
+  - type: EntityStorageVisuals
+    stateBaseClosed: base
+    stateDoorOpen: open
+    stateDoorClosed: door
+    - type: entity
 
-- type: entity
   parent: LockerWallColorPilot
   id: LockerWallColorPilotFilled
   suffix: Filled, Frontier
