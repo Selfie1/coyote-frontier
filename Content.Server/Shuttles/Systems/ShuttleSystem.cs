@@ -254,7 +254,7 @@ public sealed partial class ShuttleSystem : SharedShuttleSystem
                 return;
             }
 
-            var mapUid = _mapSystem.CreateMap(out var mapId);
+            var mapUid = _mapSystem.CreateMap(out var mapId, false);
 
             _entityManager.EnsureComponent<PhysicsComponent>(mapUid);
             _entityManager.EnsureComponent<FixturesComponent>(mapUid);
