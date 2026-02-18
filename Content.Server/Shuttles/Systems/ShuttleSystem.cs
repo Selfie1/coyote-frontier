@@ -1,4 +1,5 @@
 using Content.Server._NF.Shuttles.Components; // Frontier
+using Content.Server._NF.Smuggling.Components;
 using Content.Server.Administration.Logs;
 using Content.Server.Body.Systems;
 using Content.Server.Buckle.Systems;
@@ -12,6 +13,7 @@ using Content.Server.Stunnable;
 using Content.Shared.Atmos;
 using Content.Shared.Buckle.Components;
 using Content.Shared.Damage;
+using Content.Shared.Fax.Components;
 using Content.Shared.Lathe;
 using Content.Shared.Light.Components;
 using Content.Shared.Movement.Events;
@@ -21,6 +23,7 @@ using Content.Shared.Shuttles.Events;
 using Content.Shared.Shuttles.Systems;
 using Content.Shared.Tag;
 using Content.Shared.Throwing;
+using Content.Shared.Warps;
 using JetBrains.Annotations;
 using Robust.Server.GameObjects;
 using Robust.Server.GameStates;
@@ -251,7 +254,7 @@ public sealed partial class ShuttleSystem : SharedShuttleSystem
                 return;
             }
 
-            var mapUid = _mapSystem.CreateMap(out var mapId);
+            var mapUid = _mapSystem.CreateMap(out var mapId, false);
 
             _entityManager.EnsureComponent<PhysicsComponent>(mapUid);
             _entityManager.EnsureComponent<FixturesComponent>(mapUid);
@@ -303,11 +306,26 @@ public sealed partial class ShuttleSystem : SharedShuttleSystem
         // Clear stale data
         component.Chunks.Clear();
         component.Beacons.Clear();
-
+        List<EntityUid> toDelete = new();
         // Refresh beacons
-        var query = _entityManager.EntityQueryEnumerator<LatheComponent, TransformComponent>();
         foreach (var entity in entities)
         {
+            // Remove warp points to prevent them from being ghost accessible
+            if (TryComp<WarpPointComponent>(entity, out var point))
+            {
+                RemComp<WarpPointComponent>(entity);
+            }
+            // Remove fax machines as well
+            if (TryComp<FaxMachineComponent>(entity, out var fax))
+            {
+                toDelete.Add(entity);
+            }
+            // And dead drops
+            if (TryComp<DeadDropComponent>(entity, out var drop))
+            {
+                RemComp<DeadDropComponent>(entity);
+            }
+
             _entityManager.TryGetComponent<MetaDataComponent>(entity, out var meta);
 
             string? name = null;
@@ -343,6 +361,12 @@ public sealed partial class ShuttleSystem : SharedShuttleSystem
 
                 UpdateNavMapBeaconData(entity, qTransComp, name, color);
             }
+        }
+
+        // Remove any unneeded entities
+        foreach (var entity in toDelete)
+        {
+            _entityManager.DeleteEntity(entity);
         }
 
         // Loop over all tiles
