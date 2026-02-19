@@ -25,7 +25,12 @@
   categories:
   - UplinkSecurityUtility
   conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - SecurityUplink
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Sheriff
+        - Bailiff
+        - Detective
