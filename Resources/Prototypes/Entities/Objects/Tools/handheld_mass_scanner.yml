@@ -16,7 +16,7 @@
         visible: false
         map: [ "enum.PowerDeviceVisualLayers.Powered" ]
   - type: RadarConsole
-    maxRange: 512 # Coyote
+    maxRange: 256
     followEntity: true
   - type: Appearance
   - type: GenericVisualizer

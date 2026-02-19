@@ -222,7 +222,7 @@
     tags:
       - Syndicate
   - type: RadarConsole
-    maxRange: 640 # Coyote (512+128)
+    maxRange: 384
   - type: WorldLoader
     radius: 1536
   - type: PointLight
@@ -255,7 +255,7 @@
     components:
       - type: CargoShuttle
   - type: RadarConsole
-    maxRange: 512 # Coyote
+    maxRange: 256
   - type: PointLight
     radius: 1.5
     energy: 1.6

@@ -506,7 +506,7 @@
   abstract: true
   components:
   - type: RadarConsole
-    maxRange: 640 # Coyote (512+128)
+    maxRange: 350
   - type: Computer
     board: Null
   - type: Sprite
