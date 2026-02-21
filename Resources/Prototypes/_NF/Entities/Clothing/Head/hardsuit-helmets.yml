@@ -172,7 +172,7 @@
     highPressureMultiplier: 0.3
     lowPressureMultiplier: 1000
   - type: PointLight
-    radius: 5
+    radius: 7
     energy: 3
   - type: Armor
     modifiers:
