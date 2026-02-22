@@ -257,7 +257,7 @@ public sealed class AlertLevelSystem : EntitySystem
                 senderName = dataComponent.EntityName;
             }
 
-            _chatSystem.DispatchFilteredAnnouncement(filter, announcementFull, station, 
+            _chatSystem.DispatchFilteredAnnouncement(filter, announcementFull, station,
                 sender: senderName, playSound: playDefault, colorOverride: detail.Color);
             // End Wayfarer
         }
