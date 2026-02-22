@@ -146,7 +146,7 @@
 #region Gas tank
 - type: entity
   id: GasTankWizardBottomless
-  parent: [ GasTankRoundBase, BaseC2WizardContraband ] # Coyote: C3 to C2
+  parent: [ GasTankRoundBase, BaseC1WizardContraband ] # Coyote: C3 to C1
   name: bottomless gas tank
   description: An unusual looking gas tank that can hold more volume that it's size would suggest. Lovingly crafted for commercial use by the "Bottomless" brand.
   components:

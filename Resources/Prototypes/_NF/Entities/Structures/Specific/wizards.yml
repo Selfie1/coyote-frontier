@@ -144,7 +144,7 @@
 
 #region Inf. canisters
 - type: entity
-  parent: [ GasCanister, BaseC2WizardContraband ] # Coyote: C3 to C2
+  parent: [ GasCanister, BaseC1WizardContraband ] # Coyote: C3 to C1
   id: WizardGasCanisterBottomlessOxygen
   name: bottomless canister
   suffix: Filled, Oxygen
@@ -174,7 +174,7 @@
       price: 1250
 
 - type: entity
-  parent: [ GasCanister, BaseC2WizardContraband ] # Coyote: C3 to C2
+  parent: [ GasCanister, BaseC1WizardContraband ] # Coyote: C3 to C1
   id: WizardGasCanisterBottomlessNitrogen
   name: bottomless canister
   suffix: Filled, Nitrogen
