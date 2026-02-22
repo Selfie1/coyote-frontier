@@ -22,17 +22,14 @@ namespace Content.Client._NF.Shipyard.UI
             GuidebookButton.ToolTip = _parent.Vessel?.Description;
             GuidebookButton.TooltipDelay = .2f;
             NavMapScreen.MaintainRelativeTextboxSize = false;
+            OnClose += UnloadMap;
         }
 
-        public void RequestDetails()
+        public void LoadAndShowDetails()
         {
             if (this.IsOpen) { return; }
-            _parent.RequestVesselDetails();
-        }
-
-        public void ShowDetails(VesselRow.VesselDetails details)
-        {
-            NavMapScreen.MapUid = details.map;
+            _details = _parent.LoadVesselDetails();
+            NavMapScreen.MapUid = _details.map;
 
             NavMapScreen.ForceNavMapUpdate();
             OpenCentered();
@@ -45,6 +42,21 @@ namespace Content.Client._NF.Shipyard.UI
 
             _parent.LoadVesselGuidebook();
 
+        }
+
+        private void UnloadMap()
+        {
+            _parent.DeleteGridData(_details.map);
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            base.Dispose(disposing);
+
+            if (disposing)
+            {
+                _parent.DeleteGridData(_details.map);
+            }
         }
     }
 }
