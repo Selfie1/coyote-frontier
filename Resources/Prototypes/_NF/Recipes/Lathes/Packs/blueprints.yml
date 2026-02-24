@@ -352,6 +352,8 @@
   - HydroponicsTrayMachineCircuitboard
   - ReagentGrinderIndustrialMachineCircuitboard
   - PlantAnalyzer
+  # Janitorial
+  - BluespaceTrashBag # Coyote
   # AudioVisualCommunication
   - SurveillanceWirelessCameraMovableCircuitboard
   - SurveillanceWirelessCameraAnchoredCircuitboard

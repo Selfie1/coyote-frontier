@@ -204,6 +204,7 @@
   - ClothingBackpackDuffelHolding
   - ClothingBackpackMessengerHolding
   - ConstructionBagOfHolding
+  - BluespaceTrashBag # Coyote
   technologyPrerequisites:
   - NFMiscellaneousItemsOrganization
   position: 3, 3

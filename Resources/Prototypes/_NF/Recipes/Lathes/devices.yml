@@ -68,6 +68,17 @@
     Plasma: 1000 #DeltaV: Bluespace Exists so less plasma used, no uranium
     Bluespace: 200 #DeltaV: Bluespace Exists
 
+- type: latheRecipe #Coyote
+  id: BluespaceTrashBag
+  result: BluespaceTrashBag
+  completetime: 5
+  materials:
+    Steel: 2000
+    Silver: 750
+    Plasma: 1000 #DeltaV: Bluespace Exists so less plasma used, no uranium
+    Bluespace: 200 #DeltaV: Bluespace Exists
+    Durathread: 500 #Coyote Durathread cost
+
 - type: latheRecipe
   id: SolarAssemblyFlatpack
   result: SolarAssemblyFlatpack

@@ -77,6 +77,11 @@
     quickInsert: true
     areaInsert: true
     areaInsertRadius: 5
+    whitelist:
+      tags:
+        - Recyclable
+        - Cartridge
+        - Trash
   - type: MagnetPickup # Frontier
     magnetEnabled: false # Frontier
     range: 3
