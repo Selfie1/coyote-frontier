@@ -671,7 +671,7 @@
 
 #Wizard Hardsuit
 - type: entity
-  parent: [ClothingOuterHardsuitBase, BaseC1WizardContraband] # Frontier: BaseMagicalContraband<BaseC3WizardContraband, ContrabandClothing as parent # Coyote: BaseC3WizardContraband < BaseC1WizardContraband, removed contraband clothing
+  parent: [ClothingOuterHardsuitBase, BaseC2WizardContraband] # Frontier: BaseMagicalContraband<BaseC3WizardContraband, ContrabandClothing as parent # Coyote: BaseC3WizardContraband < BaseC2WizardContraband, removed contraband clothing
   id: ClothingOuterHardsuitWizard
   name: wizard hardsuit
   description: A bizarre gem-encrusted suit that radiates magical energies.
