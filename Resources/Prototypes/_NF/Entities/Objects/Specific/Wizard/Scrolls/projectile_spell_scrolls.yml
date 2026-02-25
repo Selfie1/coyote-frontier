@@ -67,6 +67,8 @@
   - type: Spellbook
     spellActions:
       ActionFireball: 1
+  - type: HeldItemOrbiter
+    spritePrototype: AuraOrbiterPyro
 
 #region lightningball scroll
 - type: entity
@@ -137,3 +139,5 @@
   - type: Spellbook
     spellActions:
       NFActionTeslaball: 1
+  - type: HeldItemOrbiter
+    spritePrototype: AuraOrbiterLightning
