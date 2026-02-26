@@ -827,6 +827,7 @@
   - ContractorHoloGraffitiProjector # Punkish (might be annoying)
   - ContractorCrayonMagic
   - ContractorSprayPainterMagic
+  - ContractorAccessConfigurator # Coyote: Add Civilian Access Configurator
     # Bureaucracy
   - ContractorBoxFolderMedicalDoctor
   - ContractorBrbSign
