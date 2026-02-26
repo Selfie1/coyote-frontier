@@ -576,7 +576,7 @@
     fillBaseName: fillGeneric
   - type: Storage
     grid:
-    - 0,0,8,12
+    - 0,0,7,9
   - type: Construction
     graph: WallmountStorage
     node: lockerSuper
