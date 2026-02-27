@@ -1816,8 +1816,8 @@
   name: uplink-cat-ears-name
   description: uplink-cat-ears-desc
   productEntity: ClothingHeadHatCatEars
-  cost:
-    Telecrystal: 26
+#  cost:
+#    Telecrystal: 26 #Coyote: Changes cat ears to FREE in contravend instead of costing 26 TC in uplink. Let the non-catpeople have their cat ears to cosplay with! -selfie
   categories:
   - UplinkPointless
 
