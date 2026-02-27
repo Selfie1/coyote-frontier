@@ -1,0 +1,9 @@
+- type: loadout
+  id: ContractorTennisball
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT1
+  price: 300
+  storage:
+    back:
+    - Basketball
