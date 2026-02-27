@@ -37,8 +37,3 @@
   parent: BaseJumpsuitRecipe
   id: ClothingUniformJumpskirtLawyerBlue
   result: ClothingUniformJumpskirtLawyerBlue
-
-- type: latheRecipe
-  parent: BaseJumpsuitRecipe
-  id: ClothingUniformJumpskirtLawyerGood
-  result: ClothingUniformJumpskirtLawyerGood
